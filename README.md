@@ -25,7 +25,7 @@ yarn add @reduxjs/toolkit react-redux
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/110091612/215335866-a68cbd51-8fbc-4fce-8b68-4079486304f5.gif" width="50%">
+<img src="https://user-images.githubusercontent.com/110091612/215335866-a68cbd51-8fbc-4fce-8b68-4079486304f5.gif" width="65%">
 </p>
   
 
