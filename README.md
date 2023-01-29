@@ -13,7 +13,11 @@
 
 yarn install
 yarn add react-router-dom 
+yarn add react-bootstrap bootstrap
 yarn add styled-components 
+yarn add axios
+yarn add @reduxjs/toolkit react-redux
+
 
 
 ```
@@ -27,16 +31,16 @@ yarn add styled-components
 
 
 ## Developer Note
-23.1.23(목)(최종)
+23.1.29(일)(최종)
 
+## 구현기능
 
-
-web상에서 (no server => 저장 안됨)
-
-- 좋아요 기능
-- 컴포넌트 구성을 통한 글 추가 및 삭제
-- map 에서 function 을 이용해 각 파라미터의 값들 활용.
-- modal창에 전달되는 props 값 활용.
+- 홈페이지에서 ajax 통신을 이용해 서버에서 데이터를 더 받아와 상품 더보기 기능 구현.
+- useParams를 이용하여 각 상품마다 고유의 url 파라미터를 가지고 detail 주소 생성
+- 홈페이지에서 장바구니에 추가시 cart에 장바구니에 추가됨. (Redux Toolkit 이용)
+- cart에 추가된 진열 상품의 개수 추가 or 감소 기능 구현. (Redux Toolkit 이용)
+- detail 페이지 마다 transition 기능 부여함. (동작전 클래스 후 클래스 css 부여해서 적용)
+- detail 페이지 마다 탭 UI를 만들고 그 안에 각 페이지의 상품 정보를 담음.
 
 ## 
 
